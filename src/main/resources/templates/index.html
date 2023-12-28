@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns:th="http://www.thymeleaf.org"
+      xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+      layout:decorate="~{layouts/layout}">
+
+<head>
+  <meta charset="UTF-8">
+  <title>MoonHyesun</title>
+</head>
+
+<body>
+  <div layout:fragment="content">
+
+    <section id="hero">  <!-- Main Banner Start -->
+      <div class="hero-container">
+        <div id="heroCarousel" data-bs-interval="5000" class="carousel slide carousel-fade" data-bs-ride="carousel">
+          <ol class="carousel-indicators" id="hero-carousel-indicators"></ol>
+          <div class="carousel-inner" role="listbox">
+            <!-- Slide 1 -->
+            <div class="carousel-item active" style="background-image: url(assets/img/slide/slide-1.jpg);">
+              <div class="carousel-container">
+                <div class="carousel-content">
+                  <h2 class="animate__animated animate__fadeInDown">I'm <span>Moon Hye sun</span></h2>
+                  <p class="animate__animated animate__fadeInUp">
+                    From now on,<br>
+                    I will introduce myself to you.
+                  </p>
+                  <a href="#Introduce" class="btn-get-started scrollto animate__animated animate__fadeInUp">Read More</a>
+                </div>
+              </div>
+            </div>
+            <!-- Slide 2 -->
+            <div class="carousel-item" style="background-image: url(assets/img/slide/slide-2.jpg);">
+              <div class="carousel-container">
+                <div class="carousel-content">
+                  <h2 class="animate__animated animate__fadeInDown">Online Marketer</h2>
+                  <p class="animate__animated animate__fadeInUp">
+                    I have worked in online marketing for 8 years. <br>
+                    I have produced numerous contents and have experience in web planning work.
+                  </p>
+                  <a href="#MYCAREER" class="btn-get-started scrollto animate__animated animate__fadeInUp">Read More</a>
+                </div>
+              </div>
+            </div>
+            <!-- Slide 3 -->
+            <div class="carousel-item" style="background-image: url(assets/img/slide/slide-3.jpg);">
+              <div class="carousel-container">
+                <div class="carousel-content">
+                  <h2 class="animate__animated animate__fadeInDown">Web Development</h2>
+                  <p class="animate__animated animate__fadeInUp">
+                    I studied web planning.<br>
+                    I have experience creating an AI-based shopping mall using java and python.
+                  </p>
+                  <a href="#WEBSITE" class="btn-get-started scrollto animate__animated animate__fadeInUp">Read More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#heroCarousel" role="button" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon bi bi-chevron-double-left" aria-hidden="true"></span>
+          </a>
+          <a class="carousel-control-next" href="#heroCarousel" role="button" data-bs-slide="next">
+            <span class="carousel-control-next-icon bi bi-chevron-double-right" aria-hidden="true"></span>
+          </a>
+        </div>
+      </div>
+    </section>  <!-- Main Banner End -->
+
+    <main id="main">
+      <section id="Introduce" class="about">  <!-- MoonHyesun Introduce Start -->
+        <div class="container">
+
+          <div class="section-title">
+            <h2>Introduce</h2>
+            <p>웹기획과 개발이 가능한 멀티플레이어</p>
+          </div>
+
+          <div class="row">
+            <div class="col-lg-6 mt-5">
+              <img src="assets/img/about-img.jpg" class="img-fluid mt-2" alt="">
+            </div>
+            <div class="col-lg-6 pt-4 pt-lg-0 content mt-5 mb-5">
+              <p class="fst">
+              <li><b>이름 :</b> 문혜선 (Moon HyeSun)</li>
+              <br>
+              <li><b>생년월일 :</b> 1992. 05. 20</li>
+              <br>
+              <li><b>휴대폰 :</b> 010-2009-6827</li>
+              <br>
+              <li><b>이메일 :</b> hyesunny05@gmail.com</li>
+              <br>
+              <li><b>티스토리 : </b><a href="https://dalhyehye.tistory.com">https://dalhyehye.tistory.com</a></li>
+              <br>
+              </p>
+
+              <h3>핵심역량 (Core Competencies)</h3>
+              <ul>
+                <li><i class="bi bi-check-circle"></i> <b>성실</b>: JAVA 기초 2개월+웹 개발 6개월동안 지각, 결석, 조퇴 0회</li>
+                <li><i class="bi bi-check-circle"></i> <b>정리</b> : 블로그, 노션을 이용하여 학습 내용 정리</li>
+                <li><i class="bi bi-check-circle"></i> <b>기획</b> : J형. 업무 상세 기획 및 우선 순위 선정을 통한 진행</li>
+                <li><i class="bi bi-check-circle"></i> <b>경력</b> : 8년 온라인 마케팅 + 웹 기획 경험 + 웹 개발 공부</li>
+                <li><i class="bi bi-check-circle"></i> <b>책임감</b> : 다수의 팀프로젝트 조장 + 팀장 2년</li>
+              </ul>
+            </div>
+          </div>
+
+        </div>
+      </section>    <!-- MoonHyesun Introduce End -->
+
+      <section id="MYCAREER" class="pricing section-bg">      <!-- MyCareer Start -->
+        <div class="container">
+
+          <div class="section-title">
+            <h2>My Career</h2>
+            <p>8년동안 온라인마케팅 업무를 진행하면서
+              수많은 컨텐츠를 기획, 제작 및 광고를 집행하였습니다.<br>
+              또한 상품 상세페이지와 웹 개발 기획 업무 경험이 있습니다.<br>
+            </p>
+          </div>
+
+          <div class="row">
+            <div class="col-lg-3 col-md-6">
+              <div class="box">
+                <h3>2022.04 ~ 2023.05</h3>
+                <h4><b>넥스트<br>플레이어</b><br>
+                  <span>브랜드마케팅 대리/매니저</span>
+                </h4>
+                <ul>
+                  <li>웹기획 및 런칭</li>
+                  <li>카페24 활용 자사몰 관리</li>
+                  <li>SNS 광고 컨텐츠 제작</li>
+                  <li>온라인 매체 마케팅</li>
+                  <li>인플루언서 관리</li>
+                </ul>
+<!--                <div class="btn-wrap">-->
+<!--                  <a href="#" class="btn-buy">자세히</a>-->
+<!--                </div>-->
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 mt-4 mt-md-0">
+              <div class="box featured">
+                <h3>2020.11 ~ 2022.04</h3>
+                <h4><b>메디<br>쿼터스</b><br>
+                  <span>브랜드마케팅 대리/매니저</span>
+                </h4>
+                <ul>
+                  <li>웹기획 및 런칭</li>
+                  <li>상세페이지 기획</li>
+                  <li>SNS 광고 컨텐츠 제작</li>
+                  <li>온라인 매체 마케팅</li>
+                  <li>인플루언서 관리</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 mt-4 mt-lg-0">
+              <div class="box">
+                <h3>2019.07 ~ 2020.11</h3>
+                <h4><b>드림<br>인사이트</b><br>
+                  <span>바이럴마케팅 대리</span>
+                </h4>
+                <ul>
+                  <li>온드 미디어 관리</li>
+                  <li>컨텐츠 제작</li>
+                  <li>카페 상위노출</li>
+                  <li>인플루언서 관리</li>
+                  <li>제안서 작성</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 mt-4 mt-md-0">
+              <div class="box featured">
+                <h3>2015.06 ~ 2019.02</h3>
+                <h4><b>허브넷<br>HUBNET</b><br>
+                  <span>바이럴마케팅 주임/팀장</span>
+                </h4>
+                <ul>
+                  <li>광고주 SNS채널 관리</li>
+                  <li>컨텐츠 기획 및 제작</li>
+                  <li>온라인 매체 마케팅</li>
+                  <li>인플루언서 관리</li>
+                  <li>광고주 및 팀원 관리</li>
+                </ul>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>  <!-- MyCareer End -->
+
+      <section id="WEBSITE" class="cards mt-5">  <!-- Website Start -->
+        <div class="container">
+          <div class="section-title mb-3">
+            <h2>Web site</h2>
+            <p>2번의 웹 기획 및 런칭 경험이 있으며, <br>
+              Java와 Python을 이용하여 웹형태의 쇼핑몰을 직접 제작한 경험이 있습니다.
+            </p>
+          </div>
+
+          <div class="row">
+            <div class="col-lg-4 col-md-6 d-flex align-items-stretch mb-5 mb-lg-0">
+              <div class="card">
+                <img src="assets/img/card-1.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h3 class="card-title"><b>청소도감</b></h3>
+                  <p class="card-text">
+                    - 홈페이지 구성 기획 <br>
+                    - 상세페이지 기획 <br>
+                    - 개발자 및 외주 소통 <br>
+                    - 마케팅 전략 수립
+                  </p>
+                  <a href="https://cleandogam.co.kr/" class="btn mt-3">사이트 이동</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 d-flex align-items-stretch mb-5 mb-lg-0">
+              <div class="card">
+                <img src="assets/img/card-2.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h3 class="card-title"><b>럭키클로버</b></h3>
+                  <p class="card-text">
+                    - 홈페이지 구성 기획<br>
+                    - 주 2회 개발회의 집행<br>
+                    - 개발자 및 외주 소통<br>
+                    - 마케팅 전략 수립
+                  </p>
+                  <a href="https://luckyclover.kr/" class="btn mt-3">사이트 이동</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 d-flex align-items-stretch mb-5 mb-lg-0">
+              <div class="card">
+                <img src="assets/img/card-3.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h3 class="card-title"><b>Solace</b></h3>
+                  <p class="card-text">
+                    - 홈페이지 기획+개발 <br>
+                    - 마케팅 전략 수립 <br>
+                    - AWS 이용 서버 구축 <br>
+                    - 업무총괄 및 팀원관리 <br>
+                  </p>
+                  <a href="/solace" class="btn mt-3">자세히</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </section>  <!-- Website End -->
+
+      <section id="TECHSTACK" class="services section-bg">  <!-- TechStack Start-->
+        <div class="container">
+
+          <div class="section-title">
+            <h2>Tech Stack</h2>
+            <p>자바 기초과정 2개월 (2개월, 총60시간)<br>
+              + 자바 파이썬 기반 웹 AI 비전(Vision) 시스템 개발 (6개월, 총960시간)</p>
+          </div>
+
+          <div class="row">
+            <div class="col-md-6">
+              <div class="icon-box">
+                <h2>Backend</h2>
+                <h5><b>Java + SpringBoot + JPA</b></h5><br>
+                <ul>
+                  <li><b>구조 이해 : </b>SpringBoot 구조 이해</li><br>
+                  <li><b>코드 작성 : </b>CRUD 구현 가능 (Enum 활용, 이미지 추가, Table Join)</li><br>
+                  <li><b>DB(MySQL) : </b>Repository와 Service이용한 데이터베이스 작업 처리 가능</li><br>
+                  <li><b>화면연결 : </b>Controller, DTO를 이용한 HTML 연동가능</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="col-md-6 mt-4 mt-md-0">
+              <div class="icon-box">
+                <h2>Frontend</h2>
+                <h5><b>HTML + CSS + JavaScript</b></h5><br>
+                <ul>
+                  <li><b>HTML + CSS : </b>Header, Footer를 분리하여 재사용 가능한 구조로 설계 가능</li><br>
+                  <li><b>Java Script : </b>이벤트 핸들링을 통해 버튼 클릭, 폼 제출 등의 동작 처리</li><br>
+                  <li><b>Thymeleaf : </b>Controller에서 모델에 데이터 바인딩</li>
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Form을 생성하고 사용자 입력을 받아 Controller로 데이터 전달
+                  <br>
+                  <br>
+                </ul>
+              </div>
+            </div>
+
+            <div class="col-md-6 mt-4 mt-md-0">
+              <div class="icon-box">
+                <h2>Cloud(AWS)</h2>
+                <h5><b>Tomcat + Flask + RDS + S3</b></h5><br>
+                <ul>
+                  <li><b>EC2-Tomcat : </b>서버 설치 및 구성 + WAR파일 배포 및 웹 애플리케이션 관리</li><br>
+                  <li><b>EC2–Flask : </b>FileZilla를 사용하여 파일을 EC2 인스턴스로 전송</li><br>
+                  <li><b>RDS : </b>RDS 인스턴스에 연결하여 데이터베이스 생성 및 관리</li><br>
+                  <li><b>S3 : </b>인스턴스에서 파일을 S3로 업로드 가능</li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-6 mt-4 mt-md-0">
+              <div class="icon-box">
+                <h2>Management</h2>
+                <h5><b>Git Hub + WBS + API + ERD</b></h5><br>
+                <ul>
+                  <li><b>Git Hub : </b>Repository, Branch, Readme.md 생성 및 관리 가능</li><br>
+                  <li><b>WBS : </b>프로젝트 구성 단계 식별+작업을 각 단계로 분류 우선순위 정리</li><br>
+                  <li><b>API 설계 : </b>API에서 제공할 각 엔드포인트 식별</li><br>
+                  <li><b>ERD 설계 : </b>외래 키를 사용하여 Entity 간의 관계 정의</li>
+                </ul>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>    <!-- TechStack End-->
+    </main>
+  </div>
+</body>
+
+</html>

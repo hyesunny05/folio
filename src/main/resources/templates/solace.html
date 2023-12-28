@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns:th="http://www.thymeleaf.org"
+      xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+      layout:decorate="~{layouts/layout}">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Solace</title>
+</head>
+
+<body>
+<div layout:fragment="content">
+  <header id="header" class="d-flex align-items-center ">
+    <div class="container d-flex align-items-center justify-content-between ">
+      <div class="logo">
+        <h1><a href="/">Moon Hye Sun</a></h1>
+      </div>
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link scrollto active" href="/">Home</a></li>
+          <li><a class="nav-link scrollto" href="/#Introduce">Introduce</a></li>
+          <li><a class="nav-link scrollto" href="/#MYCAREER">MY CAREER</a></li>
+          <li><a class="nav-link scrollto " href="/#WEBSITE">WEB SITE</a></li>
+          <li><a class="nav-link scrollto " href="/#TECHSTACK">TECHSTACK</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav>
+    </div>
+  </header>
+
+  <section id="Contents" class="portfolio">   <!-- Portfolio Start -->
+    <div class="container">
+
+      <div class="section-title">
+        <h2>Solace</h2>
+        <section id="portfolio-details" class="portfolio-details">
+          <div class="container">
+
+            <div class="row gy-4">
+              <div class="col-lg-3"></div>
+              <div class="col-lg-6">
+                <div class="portfolio-details-slider swiper">
+                  <div class="swiper-wrapper align-items-center">
+
+                    <div class="swiper-slide">
+                      <img src="assets/img/portfolio/portfolio-details-1.jpg" alt="">
+                    </div>
+
+                    <div class="swiper-slide">
+                      <img src="assets/img/portfolio/portfolio-details-2.jpg" alt="">
+                    </div>
+
+                    <div class="swiper-slide">
+                      <img src="assets/img/portfolio/portfolio-details-3.jpg" alt="">
+                    </div>
+
+                  </div>
+                  <div class="swiper-pagination mt-5 mb-2"></div>
+                </div>
+              </div>
+              <div class="col-lg-3"></div>
+            </div>
+
+        <p>AI를 이용하여 공간을 인식하고,<br>
+           공간별 청소 꿀팁과 회원 특별가로 청소용품 추천<br>
+          <br>
+          <b>프로젝트 기간 : </b>23. 11. 07 ~ 23. 12 .15 / <b>팀원 : </b>4명 (팀장) <br>
+          <b>홈페이지 유형 : </b>반응형 웹사이트
+        </p>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-12 d-flex justify-content-center mt-5">
+          <ul id="portfolio-flters">
+            <li data-filter=".filter-pre">준비단계</li>
+            <li data-filter=".filter-member">개발(회원)</li>
+            <li data-filter=".filter-admin">개발(관리자)</li>
+            <li data-filter=".filter-complete">개발완료</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="row portfolio-container">
+
+        <!-- filter-pre : 준비단계 -->
+        <div class="col-lg-4 col-md-6 portfolio-item filter-pre">
+          <img src="assets/img/portfolio/portfolio-1.jpg" class="img-fluid" alt="">
+          <div class="portfolio-info">
+            <h4>WBS (Work Breakdown Structure)</h4>
+            <p>WBS 구축 및 관리</p>
+            <a href="assets/img/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link"
+               title="작업을 계층적으로 구성 및 개발일정, 진행상황 체크"><i class="bx bx-plus"></i></a>
+            <a href="https://docs.google.com/spreadsheets/d/1VSmARLUvRh_L1MxF6z6RsZrPA4huV8l7/edit?rtpof=true#gid=450179552" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-pre">
+          <img src="assets/img/portfolio/portfolio-2.jpg" class="img-fluid" alt="">
+          <div class="portfolio-info">
+            <h4>API (Application Programming Interface)</h4>
+            <p>API 설계</p>
+            <a href="assets/img/portfolio/portfolio-2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link"
+               title="엔드포인트 및 메서드 정의,매개변수 및 응답 정의 "><i class="bx bx-plus"></i></a>
+            <a href="https://docs.google.com/spreadsheets/d/1VSmARLUvRh_L1MxF6z6RsZrPA4huV8l7/edit#gid=198765808" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-pre">
+          <img src="assets/img/portfolio/portfolio-3.jpg" class="img-fluid" alt="">
+          <div class="portfolio-info">
+            <h4>ERD (Entity-Relationship Diagram)</h4>
+            <p>변수 설정, 테이블 관계 정의 및 ERD 설계</p>
+            <a href="assets/img/portfolio/portfolio-3.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link"
+               title="데이터베이스의 구조를 시각화, Entity(테이블) 간의 관계를 정의"><i class="bx bx-plus"></i></a>
+            <a href="https://docs.google.com/spreadsheets/d/1VSmARLUvRh_L1MxF6z6RsZrPA4huV8l7/edit#gid=1337888294" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-pre">
+          <img src="assets/img/portfolio/portfolio-4.jpg" class="img-fluid" alt="">
+          <div class="portfolio-info">
+            <h4>Screen Flow chart</h4>
+            <p>화면 흐름도</p>
+            <a href="assets/img/portfolio/portfolio-4.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link"
+               title="화면과 기능단위로 해당 웹/앱등 서비스에 사용 동선의 흐름을 도식화"><i class="bx bx-plus"></i></a>
+<!--            <a href="#" class="details-link" title="More Details"><i class="bx bx-link"></i></a>-->
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-pre">
+          <img src="assets/img/portfolio/portfolio-5.jpg" class="img-fluid" alt="">
+          <div class="portfolio-info">
+            <h4>Design</h4>
+            <p>UI/UX를 디자인</p>
+            <a href="assets/img/portfolio/portfolio-5.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link"
+               title="레이아웃 및 화면 구성을 스케치, 페이지별 기능 정의"><i class="bx bx-plus"></i></a>
+            <a href="https://drive.google.com/file/d/1_4_b3nLmlZeMAby_Ee4BwqysJd30jPqG/view?usp=sharing" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-pre">
+          <img src="assets/img/portfolio/portfolio-6.jpg" class="img-fluid" alt="">
+          <div class="portfolio-info">
+            <h4>Layout</h4>
+            <p>HTML + CSS + JS 활용</p>
+            <a href="assets/img/portfolio/portfolio-6.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link"
+               title="화면 디자인을 바탕으로 레이아웃 구성 (HTML + CSS + JS 활용)"><i class="bx bx-plus"></i></a>
+<!--            <a href="#" class="details-link" title="More Details"><i class="bx bx-link"></i></a>-->
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-pre">
+          <img src="assets/img/portfolio/portfolio-7.jpg" class="img-fluid" alt="">
+          <div class="portfolio-info">
+            <h4>Image Deep learning</h4>
+            <p>Python + YoloV5 활용</p>
+            <a href="assets/img/portfolio/portfolio-7.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link"
+               title="공간을 구별 할 수 있도록 변기(화장실), 싱크대(주방), 세탁기(생활공간) 이미지 학습 및 분류(Python + YoloV5 활)"><i class="bx bx-plus"></i></a>
+<!--            <a href="#" class="details-link" title="More Details"><i class="bx bx-link"></i></a>-->
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-pre">
+          <img src="assets/img/portfolio/portfolio-8.jpg" class="img-fluid" alt="">
+          <div class="portfolio-info">
+            <h4>Presentation</h4>
+            <p>팀 소개 및 프로젝트 주제 발표 (2조)</p>
+            <a href="assets/img/portfolio/portfolio-8.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link"
+               title="23.11.13 - 팀 소개 및 프로젝트 주제 발표 (PPT 제작 및 발표 담당)"><i class="bx bx-plus"></i></a>
+            <a href="http://woori-prn.iptime.org:8080/plan/230627.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+          </div>
+        </div>
+
+
+        <!-- filter-member : 개발(회원) -->
+        <div class="col-lg-4 col-md-6 portfolio-item filter-member">
+          <img src="assets/img/portfolio/portfolio-9.jpg" class="img-fluid" alt="">
+          <div class="portfolio-info">
+            <h4>Login</h4>
+            <p>로그인 기능</p>
+            <a href="assets/img/portfolio/portfolio-9.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link"
+               title="로그인 기능 - 아이디/비밀번호 불일치 alert창"><i class="bx bx-plus"></i></a>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-member">
+          <img src="assets/img/portfolio/portfolio-10.jpg" class="img-fluid" alt="">
+          <div class="portfolio-info">
+            <h4>Kakao Join</h4>
+            <p>카카오 회원가입</p>
+            <a href="assets/img/portfolio/portfolio-10.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link"
+               title="카카오 회원가입 - 카카오API 활용"><i class="bx bx-plus"></i></a>
+          </div>
+        </div>
+
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-member">
+          <img src="assets/img/portfolio/portfolio-11.jpg" class="img-fluid" alt="">
+          <div class="portfolio-info">
+            <h4>HomePage Join</h4>
+            <p>홈페이지 회원가입</p>
+            <a href="assets/img/portfolio/portfolio-11.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link"
+               title="홈페이지 회원가입 - 검증오류, 비밀번호 일치여부, 우편번호API 활용"><i class="bx bx-plus"></i></a>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-member">
+          <img src="assets/img/portfolio/portfolio-12.jpg" class="img-fluid" alt="">
+          <div class="portfolio-info">
+            <h4>MyPage</h4>
+            <p>나의 정보</p>
+            <a href="assets/img/portfolio/portfolio-12.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link"
+               title="MyPage 메인 - 회원 가입 완료 후, 나의 정보 자동 등록"><i class="bx bx-plus"></i></a>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-member">
+          <img src="assets/img/portfolio/portfolio-13.jpg" class="img-fluid" alt="">
+          <div class="portfolio-info">
+            <h4>AI - Image Search</h4>
+            <p>공간인식을 시키고자 하는 이미지 삽입</p>
+            <a href="assets/img/portfolio/portfolio-13.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link"
+               title="AI 이미지 인식 - 공간인식을 시키고자 하는 이미지 삽입, 회원만 이용 가능하도록 접근 제어 및 alert창"><i class="bx bx-plus"></i></a>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-member">
+          <img src="assets/img/portfolio/portfolio-14.jpg" class="img-fluid" alt="">
+          <div class="portfolio-info">
+            <h4>AI - Image Result</h4>
+            <p>사진 결과 도출 및 청소꿀팁+회원특별가 청소용품 추천</p>
+            <a href="assets/img/portfolio/portfolio-14.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link"
+               title="AI 이미지 결과 - 사진 결과 도출(주방, 화장실, 기타 공간으로 분류) 및 청소꿀팁 + 회원특별가 청소용품 추천"><i class="bx bx-plus"></i></a>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-member">
+          <img src="assets/img/portfolio/portfolio-15.jpg" class="img-fluid" alt="">
+          <div class="portfolio-info">
+            <h4>Product List</h4>
+            <p>카테고리에 맞춰 상품 진열</p>
+            <a href="assets/img/portfolio/portfolio-15.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link"
+               title="상품 진열 - 카테고리에 맞춰 상품 진열(조건: 판매상태 Sell만 진열, 회원세일제품 미진열)"><i class="bx bx-plus"></i></a>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-member">
+          <img src="assets/img/portfolio/portfolio-16.jpg" class="img-fluid" alt="">
+          <div class="portfolio-info">
+            <h4>Product Detail</h4>
+            <p>제품 상세페이지</p>
+            <a href="assets/img/portfolio/portfolio-16.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link"
+               title="상세페이지 - 제품 상세정보, 구매수량 선택, 연관상품 추천"><i class="bx bx-plus"></i></a>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-member">
+          <img src="assets/img/portfolio/portfolio-17.jpg" class="img-fluid" alt="">
+          <div class="portfolio-info">
+            <h4>Order Form</h4>
+            <p>구매양식 작성</p>
+            <a href="assets/img/portfolio/portfolio-17.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link"
+               title="구매하기 - 구매양식 작성 (회원&상품 정보 자동 불러오기, 배송지&결제 정보 입력)"><i class="bx bx-plus"></i></a>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-member">
+          <img src="assets/img/portfolio/portfolio-18.jpg" class="img-fluid" alt="">
+          <div class="portfolio-info">
+            <h4>Order Success</h4>
+            <p>구매 완료</p>
+            <a href="assets/img/portfolio/portfolio-18.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link"
+               title="구매 완료 - 회원, 배송, 상품, 결제 정보 불러오기 & 구매완료 alert창"><i class="bx bx-plus"></i></a>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-member">
+          <img src="assets/img/portfolio/portfolio-19.jpg" class="img-fluid" alt="">
+          <div class="portfolio-info">
+            <h4>MyPage - Order</h4>
+            <p>나의 구매 내역</p>
+            <a href="assets/img/portfolio/portfolio-19.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link"
+               title="MyPage 구매내역 - 구매 완료 후, 나의 구매 내역에 자동으로 상품 구매 정보 등록"><i class="bx bx-plus"></i></a>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-member">
+          <img src="assets/img/portfolio/portfolio-20.jpg" class="img-fluid" alt="">
+          <div class="portfolio-info">
+            <h4>Notice List</h4>
+            <p>공지사항 목록 조회</p>
+            <a href="assets/img/portfolio/portfolio-20.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link"
+               title="공지사항 - 관리자가 등록한 공지사항 목록 조회"><i class="bx bx-plus"></i></a>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-member">
+          <img src="assets/img/portfolio/portfolio-21.jpg" class="img-fluid" alt="">
+          <div class="portfolio-info">
+            <h4>Notice Detail</h4>
+            <p>공지사항 상세 조회</p>
+            <a href="assets/img/portfolio/portfolio-21.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link"
+               title="공지사항 - 관리자가 등록한 공지사항 상세 조회, 이전 및 다음 글로 이동 가능"><i class="bx bx-plus"></i></a>
+          </div>
+        </div>
+
+
+        <!-- filter-admin : 개발(관리자) -->
+        <div class="col-lg-4 col-md-6 portfolio-item filter-admin">
+          <img src="assets/img/portfolio/portfolio-22.jpg" class="img-fluid" alt="">
+          <div class="portfolio-info">
+            <h4>Member List</h4>
+            <p>가입한 회원 목록 조회</p>
+            <a href="assets/img/portfolio/portfolio-22.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link"
+               title="회원목록 - 회원가입 완료 후, 회원가입 정보 자동 등록"><i class="bx bx-plus"></i></a>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-admin">
+          <img src="assets/img/portfolio/portfolio-23.jpg" class="img-fluid" alt="">
+          <div class="portfolio-info">
+            <h4>Member Order List</h4>
+            <p>회원 구매목록 조회</p>
+            <a href="assets/img/portfolio/portfolio-23.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link"
+               title="주문목록 - 회원이 상품 구매 후, 구매 정보 자동 등록"><i class="bx bx-plus"></i></a>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-admin">
+          <img src="assets/img/portfolio/portfolio-24.jpg" class="img-fluid" alt="">
+          <div class="portfolio-info">
+            <h4>Product Insert</h4>
+            <p>상품 등록(카테고리 및 판매 상태 분류)</p>
+            <a href="assets/img/portfolio/portfolio-24.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link"
+               title="상품등록 - 검증오류, 카테고리 및 판매 상태 분류, 이미지 분류(대표, 서브, 상세)하여 등록, 상품 등록 성공 alert창"><i class="bx bx-plus"></i></a>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-admin">
+          <img src="assets/img/portfolio/portfolio-25.jpg" class="img-fluid" alt="">
+          <div class="portfolio-info">
+            <h4>Product List</h4>
+            <p>상품 목록 및 검색 기능</p>
+            <a href="assets/img/portfolio/portfolio-25.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link"
+               title="상품 목록 및 검색 - 대분류, 중분류를 선택하여 상품 검색"><i class="bx bx-plus"></i></a>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-admin">
+          <img src="assets/img/portfolio/portfolio-26.jpg" class="img-fluid" alt="">
+          <div class="portfolio-info">
+            <h4>Product Read / Update / Delete</h4>
+            <p>상품 조회, 수정, 삭제</p>
+            <a href="assets/img/portfolio/portfolio-26.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link"
+               title="상품 조회 수정 삭제, 삭제 여부 alert창"><i class="bx bx-plus"></i></a>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-admin">
+          <img src="assets/img/portfolio/portfolio-27.jpg" class="img-fluid" alt="">
+          <div class="portfolio-info">
+            <h4>Notice Insert</h4>
+            <p>공지사항 등록</p>
+            <a href="assets/img/portfolio/portfolio-27.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link"
+               title="공지사항 등록 - 공지사항 유형 선택 가능, 작성 완료 후 관리자페이지와 회원페이지에 등록"><i class="bx bx-plus"></i></a>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-admin">
+          <img src="assets/img/portfolio/portfolio-28.jpg" class="img-fluid" alt="">
+          <div class="portfolio-info">
+            <h4>Notice List</h4>
+            <p>공지사항 목록</p>
+            <a href="assets/img/portfolio/portfolio-28.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link"
+               title="공지사항 목록 - 관리자가 등록한 모든 공지사항 조회"><i class="bx bx-plus"></i></a>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-admin">
+          <img src="assets/img/portfolio/portfolio-29.jpg" class="img-fluid" alt="">
+          <div class="portfolio-info">
+            <h4>Notice Detail</h4>
+            <p>공지사항 목록</p>
+            <a href="assets/img/portfolio/portfolio-29.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link"
+               title="공지사항 상세 - 관리자가 등록한 공지사항 상세 조회 수정 삭제, 이전 및 다음 글 이동 가능"><i class="bx bx-plus"></i></a>
+          </div>
+        </div>
+
+        <!-- filter-complete : 개발완료 -->
+        <div class="col-lg-4 col-md-6 portfolio-item filter-complete">
+          <img src="assets/img/portfolio/portfolio-30.jpg" class="img-fluid" alt="">
+          <div class="portfolio-info">
+            <h4>Cloud (AWS)</h4>
+            <p>서버 구축</p>
+            <a href="assets/img/portfolio/portfolio-30.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link"
+               title="서버구축 - EC2(Tomcat & Flask) / RDS / S3 서버 구축"><i class="bx bx-plus"></i></a>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-complete">
+          <img src="assets/img/portfolio/portfolio-31.jpg" class="img-fluid" alt="">
+          <div class="portfolio-info">
+            <h4>GitHub</h4>
+            <p>commit push & readme.md 작성</p>
+            <a href="assets/img/portfolio/portfolio-31.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link"
+               title="GitHub - commit, push & readme.md 작성"><i class="bx bx-plus"></i></a>
+            <a href="https://github.com/woorisolace/sol" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-complete">
+          <img src="assets/img/portfolio/portfolio-32.jpg" class="img-fluid" alt="">
+          <div class="portfolio-info">
+            <h4>Presentation</h4>
+            <p>프로젝트 최종 발표 (2조)</p>
+            <a href="assets/img/portfolio/portfolio-32.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link"
+               title="23. 12. 15 - 프로젝트 최종 발표 (PPT 제작 및 발표 담당)"><i class="bx bx-plus"></i></a>
+            <a href="https://drive.google.com/file/d/1Fn58b5OR-bJ3Zr3GygL-m9Yi9cjMG8ET/view?usp=sharing" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-complete">
+          <img src="assets/img/portfolio/portfolio-33.jpg" class="img-fluid" alt="">
+          <div class="portfolio-info">
+            <h4>Study</h4>
+            <p>코드 복습 및 정리</p>
+            <a href="assets/img/portfolio/portfolio-33.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link"
+               title="코드 클린화 및 복습을 하면서 티스토리에 정리"><i class="bx bx-plus"></i></a>
+            <a href="https://dalhyehye.tistory.com/" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section><!-- Portfolio Section End -->
+
+</div>
+</body>
+
+</html>
